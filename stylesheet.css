@@ -127,7 +127,9 @@ li {
 	list-style: none;
 }
 
-
+.contact-info {
+	margin: 25px;
+}
 
 .project1,
 .project2, 
