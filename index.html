@@ -28,7 +28,9 @@
 			<!-- 1 -->
 			<div class="about-me">
 				<h3>About me</h3>
-					<p>I am a self taught, motivated web developer looking for an oppurtunity to continue to learn in an active environment. I have a good knowledge of front end techniques and seek further knowledge from a like minded team oriented group. I appreciate constructive criticism and advice.
+					<p><!-- I am a self taught, motivated web developer looking for an oppurtunity to continue to learn in an active environment. --> 
+					Currently enrolled in WDI 9 at General Assembly.
+					I have a good knowledge of front end techniques and seek further knowledge from a like minded team oriented group. I appreciate constructive criticism and advice.
 					</p>
 			</div>
 
@@ -36,8 +38,8 @@
 
 			<!-- 2 -->
 			<div class="photo">
-				<p>- add photo here -
-					<img src="" alt="">
+				<p>
+					<img src="" alt="" width="200px" class="selfShot">
 				</p>
 			</div>
 			<!-- end 2 -->
@@ -48,8 +50,9 @@
 				<ul>
 					<li id="title">Name:</li>
 						<li>Randy Galeano</li>
+			
 					<li id="title">Age:</li>
-						<li>22 years</li>
+						<li>23 years</li>
 					<li id="title">Location</li>
 						<li>Dacula, Georgia, USA</li>
 				</ul>
@@ -71,18 +74,28 @@
 			<h3>Education</h3>
 			<div class="education1">
 				<div id="left">
-
+					<p id="title">General Assembly</p>
+					<p>May 2012 - May 2016</p>
+				</div>
+					<!-- DIV THIS TO MAKE INTO COLUMNS -->
+				<div id="right">
+					<p id="subtitle">Web Development Immersive</p>
+					<p>This program was java-based. During my time in these courses, I realized I found more interest in web developement.</p>
+				</div>
+			</div>
+			<div class="education1">
+				<div id="left">
 					<p id="title">University of North Georgia</p>
 					<p>May 2012 - May 2016</p>
 				</div>
 					<!-- DIV THIS TO MAKE INTO COLUMNS -->
 				<div id="right">
 					<p id="subtitle">Associates - Computer Science</p>
-					<p>This program was java-based. During my time in these courses, I realized I found more interest in web developement rather than software developement.</p>
+					<p>This program was java-based. During my time in these courses, I realized I found more interest in web developement rather than the direction .</p>
 				</div>
 			</div>
 					<!-- END HERE -->
-			<div class="education2">
+			<div class="education1">
 				<div id="left">
 					<p id="title">Winder-Barrow High School</p>
 					<p>August 2008 - May 2012</p>
@@ -100,7 +113,7 @@
 			<div class="education1">
 				<div id="left">
 					<p id="title">Kirkland's</p>
-					<p>August 2014 - September 2016</p>
+					<p>August 2014 - January 2017</p>
 				</div>
 					<!-- DIV THIS TO MAKE INTO COLUMNS -->
 				<div id="right">
@@ -118,6 +131,7 @@
 		<p>-Aristotle</p></p>
 			<hr>
 <!-- LIST of ABILITIES -->
+	<div class="graphs">
 		<ul class="left-list">
 			<!-- Ability 1 -->
 			<li>
@@ -198,10 +212,92 @@
 				</div>
 			</li>
 		</ul>
+
+		<ul class="right-list">
+			<!-- Ability 1 -->
+			<li>
+				<div class="stats">
+					<div class="catagory">
+						<p>Node.js</p>
+					</div>
+					<!-- TITLE AND CHARTSPLIT HERE -->
+					<div class="chart5" data-percent="67"></div>
+						<script src="/path/to/easy-pie-chart.js">
+						</script>
+						<script>
+    					var element = document.querySelector('.chart5');
+    					new EasyPieChart(element, {
+        				// your options goes here
+    					});
+						</script>
+				</div>
+			</li>
+			
+			<!-- Ability 2 -->
+
+			<li>
+				<div class="stats">
+					<div class="catagory">
+						<p>Express</p>
+					</div>
+					<!-- TITLE AND CHART SPLIT HERE -->
+					<div class="chart6" data-percent="79"></div>
+						<script src="/path/to/easy-pie-chart.js">
+						</script>
+						<script>
+    					var element = document.querySelector('.chart6');
+    					new EasyPieChart(element, {
+        				// your options goes here
+    					});
+						</script>
+				</div>
+			</li>
+
+			<!-- Ability 3 -->
+
+			<li>
+				<div class="stats">
+					<div class="catagory">
+					<p>mongoDB</p>
+					</div>
+					<!-- TITLE AND CHART HERE -->
+					<div class="chart7" data-percent="80"></div>
+						<script src="/path/to/easy-pie-chart.js">
+						</script>
+						<script>
+    					var element = document.querySelector('.chart7');
+    					new EasyPieChart(element, {
+        				// your options goes here
+    					});
+						</script>
+				</div>
+			</li>
+
+			<!-- Ability 4 -->
+		
+			<li>
+				<div class="stats">
+					<div class="catagory">
+						<p>Angular</p>
+					</div>
+					<!-- TITLE AND CHART SPLIT HERE -->
+					<div class="chart8" data-percent="75"></div>
+						<script src="/path/to/easy-pie-chart.js">
+						</script>
+						<script>
+    					var element = document.querySelector('.chart8');
+    					new EasyPieChart(element, {
+        				// your options goes here
+    					});
+						</script>
+				</div>
+			</li>
+		</ul>
+	</div>
 		<br>
 		<br>
 		<div>
-			<p>*Currently learning new techniques every day.</p>
+			<p>*Learning every day.</p>
 		</div>
 
 
@@ -235,29 +331,33 @@
 			<hr>
 		<br>
 		<br>
+
 		<div class="projects-links">
 			<div class="project1">
 				<a href="restuarant/index.html" target="_blank">
 				<img src="Restaurant-thumbnail.png" alt="" width="400">
 				</a>
 			</div>
-			<div class="project2">
+			<div class="project1">
 				<a href="city-guide/index.html" target="_blank">
 				<img src="BCG-thumbnail.png" alt="" width="400">
 				</a>
 			</div>
-			<div class="project3">
+			<div class="project1">
 				<a href="QRS/index.html" target="_blank">
 				<img src="QRS-thumbnail.png" alt="" width="400">
 				</a>
 			</div>
-			<div class="project4">
-				<a href="https://radiant-sierra-29514.herokuapp.com/" target="_blank">
-				<img src="QRS-thumbnail.png" alt="" width="400">
+			<div class="project1">
+				<a href="Jeopardy/index.html" target="_blank">
+				<img src="jeopardy-thumbnail.png" alt="" width="400">
 				</a>
 			</div>
-			
-
+			<div class="project1">
+				<a href="https://radiant-sierra-29514.herokuapp.com/" target="_blank">
+				<img src="streetart-thumbnail.png" alt="" width="400">
+				</a>
+			</div>
 		</div>
 	</div>
 

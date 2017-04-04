@@ -52,6 +52,7 @@ hr {
 .header .title  p {
 	margin-bottom: 0px;
 	margin-top: 0px;
+	text-shadow: 5px 5px black; 
 }
 
 
@@ -59,7 +60,6 @@ hr {
 .profile,
 .experiences,
 .abilities,
-.projects,
 .contact {
 	padding: 25px 25px;
 }
@@ -84,7 +84,9 @@ ul {
 	padding-left: 0px;
 }
 
-
+.contact p {
+	color: #c3c3c3;
+}
 
 
 .experiences {
@@ -102,10 +104,17 @@ ul {
 	background-color: #fff;
 }
 
+.projects-links {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	justify-content: center;
+	align-content: center;
+}
 
 .projects {
-
 	background-color: #fffdea;
+	padding-bottom: 20px;
 }
 
 .contact {
@@ -118,43 +127,54 @@ li {
 	list-style: none;
 }
 
-.projects-links {
-	align-items: center;
-	padding-left: 0px;
-	padding-right: 0px;
-}
+
 
 .project1,
 .project2, 
 .project3,
-.project4 {
-	padding-top: 25px;
+.project4,
+.project5 {
+	padding: 25px;
 	transition: 0.4s transform;
 }
 
 .project1:hover,
 .project2:hover,
 .project3:hover,
-.project4:hover {
+.project4:hover,
+.project5:hover {
 	-webkit-transform: scale(1.1);
 	-ms-transform: scale(1.1);
 	transform: scale(1.1);
 
 }
 
+.graphs {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.graphs .left-list,
+.graphs .right-list {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
 @media (min-width: 1025px) {
 
 	.project1,
 	.project2,
 	.project3,
-	.project4 {
+	.project4,
+	.project5 {
 		max-width: 100%;
 	}
 
 	.profile,
 	.experiences,
 	.abilities,
-	.projects,
 	.contact {
 		padding: 25px 300px;
 	}
@@ -195,24 +215,16 @@ li {
 	.education {
 		display: block;
 	}
-	.education1,
-	.education2 {
+	.education1 {
 		display: flex;
-		justify-content: space-around;
-
+		justify-content: space-between;
 	}
 
 	.projects {
 		height: 1000px;
 	}
 
-/*	#left-list {
-		float: left;
-	}
-	#right-list {
-		float: right;
-	}
-*/
+
 }
 
 
@@ -220,7 +232,7 @@ li {
 	.profile, 
 	.experiences,
 	.abilities,
-	.projects,
+	/*projects*/
 	.contact {
 		padding: 25px 500px;
 	}
@@ -228,8 +240,13 @@ li {
 	.project1,
 	.project2,
 	.project3,
-	.project4 {
+	.project4,
+	.project5 {
 		max-width: 100%;
+	}
+
+	.projects {
+		height: 850px;
 	}
 }
 
