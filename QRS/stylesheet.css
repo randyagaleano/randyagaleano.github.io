@@ -1,0 +1,482 @@
+/*==================
+BASE ELEMENT STYLES
+===================*/
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: futura, Helvetica, Arial, sans-serif;
+	/*font-family: font-family: 'Libre Baskerville', serif;*/
+	font-size: 1.6rem;
+	line-height: 1.6;
+	color: #3a3a3a;
+	margin: 0;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+a:visited {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/*.wrap {
+	max-width: 700px;
+	padding: 0 20px;
+}*/
+
+
+
+/*==================
+BASE LAYOUT STYLES
+===================*/
+
+/*layout containers*/
+.header {
+	color: #fff;
+	background-color: rgb(142,132,119);
+
+}
+
+.banner {
+	background-image: url('banner.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 3.2em 0;
+	margin-bottom: 50px;
+	height: 400px; 
+}
+
+.logo {
+	width: 100vh;
+}
+
+.photo {
+	margin-left: 25px;
+	margin-right: 25px;
+	max-width: 75;
+}
+
+.description {
+	margin-bottom: 50px;
+	color: rgb(142,132,119);
+}
+.description p {
+	text-align: left;
+}
+
+.row {
+	color: #fff;
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+
+
+/*START PORTFOLIOS*/
+.box1 {
+	background-image:  
+	/*CAN DO GRADIENT LIKE THIS*/
+/*	linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ),*/
+    url('portfolio1.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 750px;
+}
+
+.primary {
+}
+.gradient1,
+.gradient3 {
+	background: rgb(70,59,53);
+	background: -webkit-linear-gradient(rgb(70,59,53),rgba(0,0,0,0));
+	height: 50%;
+}
+
+
+.primary,
+.tertiary {
+	background-color: rgb(70,59,53);
+}
+.secondary {
+	background-color: rgb(199,186,170);
+}
+.box2 {
+	background-image: url('portfolio2.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 750px;
+}
+.gradient2 {
+	background: rgb(199,186,170);
+	background: -webkit-linear-gradient(rgb(199,186,170),rgba(0,0,0,0));
+	height: 50%;
+}
+
+.tertiary {
+}
+.box3 {
+	background-image: url('portfolio3.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 750px;
+}
+/*END PORTFOLIOS*/
+
+p {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.row h2,
+.row p {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.row h2 {
+	margin-top: 0;
+ 	padding-top: 75px;
+}
+.row p {
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+
+
+.view-more {
+	text-align: center;
+	color: #fff;
+	background-color: rgb(142,132,119);
+	padding-top: 1px;
+	padding-bottom: 1px;
+	transition: 1s;
+}
+.view-more h2 {
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.view-more:hover {
+	color: black;
+	transition: 0.25s;
+}
+
+.about {
+	text-align: center;
+	margin-right: 20px;
+	margin-left: 20px;
+	color: rgb(142,132,119);
+	margin-bottom: 25px;
+}
+
+.photo1,
+.photo2 {
+	margin-left: 20px;
+	margin-right: 20px;
+	display: inline-block;
+}
+
+.photo1,
+.photo2 {
+	align-items: center;
+	width: 300px;
+	max-width: 100%;
+}
+
+.founder-info-1,
+.founder-info-2 {
+	color: rgb(142,132,119);
+}
+
+.founder-info-1 h2, 
+.founder-info-2 h2{
+	margin-top: 0px;
+}
+.founder-info-1 h3, 
+.founder-info-2 h3 {
+	margin-bottom: 0px;
+}
+
+.learn-more {
+	color: #fff;
+	background-color: rgb(70,59,53);
+	width: 280px;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition: 1s;
+}
+.learn-more:hover {
+	color: black;
+	transition: 0.25s;
+}
+.companys {
+	display: inline-block;
+	background-color: rgb(142,132,119);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.hilton {
+	display: none;
+}
+.fourSeasons {
+	display: none;
+}
+.hyatt {
+	display: none;
+}
+.contact-header {
+	color: rgb(142,132,119);
+}
+.submit {
+	display: inline-block;
+	color: #fff;
+	background-color: rgb(70,59,53);
+	margin: 0 auto;
+	margin-bottom: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 280px;
+	transition: 1s;
+}
+.submit:hover {
+	color: black;
+	transition: .25s;
+}
+
+.media-footer {
+	background-color: rgb(70,59,53);
+	height: 75px;
+}
+.footer {
+	color: #fff;
+	background-color: rgb(142,132,119);
+	font-size: 0.75em;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+li {
+	list-style: none;
+	padding-left: 5px;
+	padding-right: 20px;
+}
+
+/*===========
+MEDIA QUERIES
+===========*/
+
+@media (min-width: 769px) {
+	.banner {
+		height: 500px;
+	}
+
+	.companys {
+		padding-left: 250px;
+		padding-right: 250px;
+	}
+
+	.primary,
+	.tertiary {
+		text-align: right;
+		padding-left: 50px;
+		padding-right: 25px;
+	}
+	.secondary {
+		padding-right: 50px;
+		padding-left: 25px;
+	}
+	.description p,
+	.about p {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.hilton {
+		display: inline;
+	}
+
+	li {
+		display: inline-block;
+	}
+
+	
+
+
+}
+
+@media (min-width: 1225px) {
+
+
+
+	.fourSeasons {
+		display: inline;
+	}
+	.hyatt {
+		display: inline;
+	}
+
+	.paragraphs {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.paragraph1,
+	.paragraph2 {
+		text-align: left;
+	}
+	.paragraph1 {
+		float: left;
+		padding-left: 0px;
+		padding-right: 50px;
+	}
+	.paragraph2 {
+		float: right;
+		padding-left: 50px;
+	}
+	.paragraph2 p {
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+
+
+	.importantPeople {
+		display: flex;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		justify-content: space-around;
+		margin-left: 350px;
+		margin-right: 350px;
+	}
+
+	.importantPeople .photo1,
+	.importantPeople .photo2 {
+		width: 280px;
+		min-width: 50%;
+		max-width: 25%%;
+	}
+	.founder-info-1 {
+		order: -1;
+		text-align: right;
+		padding-left: 75px;
+	}
+	.founder-info-2 {
+		text-align: left;
+		padding-right: 75px;
+	}
+
+	.about {
+		margin-left: 250px;
+		margin-right: 250px;
+	}
+	.description {
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+
+/*PORTFOLIOS*/
+	.box2 {
+		display: flex;
+		flex-direction: row;
+	}
+	.gradient2 {
+		width: 300%;
+		background: rgb(199,186,170);
+		background: -webkit-linear-gradient(90deg, rgb(199,186,170), rgba(0,0,0,0));
+		background: linear-gradient(90deg, rgb(199,186,170), rgba(0,0,0,0));
+		float: right;
+		height: 100%;
+	}
+	.box1,
+	.box3 {
+
+		display: flex;
+		/**/
+		flex-direction: row-reverse;
+		/**/
+	}
+	.gradient1,
+	.gradient3 {
+		width: 300%;
+		background: rgb(0,0,0);
+		background: -webkit-linear-gradient(90deg, rgba(0,0,0,0), rgb(70,59,53));
+		background: linear-gradient(90deg, rgba(0,0,0,0), rgb(70,59,53));
+		float: right;
+		height: 100%;
+	}
+
+
+
+
+	.primary {
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
