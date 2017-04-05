@@ -1,0 +1,76 @@
+body {
+    overflow-x: hidden;
+    font-family: 'avenir next';
+}
+
+.mainHeader {
+	background: url('../images/mountain.jpg') no-repeat center center fixed;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	flex-direction: center;
+	align-content: center;
+}
+
+.mainHeaderText {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+	text-shadow: 0.15em 0.15em rgba(255, 255, 255, 0.25);
+	letter-spacing: 0.75em;
+}
+
+.mainHeaderText .title {
+	font-size: 4em;
+	font-family: 'avenir next';
+}
+.mainHeaderText .sub,
+.arrow {
+	font-size: 1.5em;
+	font-weight: 200;
+}
+.arrow {
+	margin-top: 100px;
+	transition: 0.5s;
+}
+.arrow:hover {
+	transform: scale(2);
+	transition: .25s;
+}
+.sub {
+	color: white;
+}
+
+.mainHeaderText p a {
+	color: white;
+	font-size: 1.25em;
+	transition: .25s;
+}
+
+.mainHeaderText p a:hover {
+	color: darkgrey;
+	transition: .25s;
+}
+
+hr {
+	border-top: 1px solid #8c8b8b;
+	text-align: center;
+}
+
+.headerNav {
+	font-size: 2em;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
