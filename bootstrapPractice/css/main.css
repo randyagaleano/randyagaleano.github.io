@@ -1,7 +1,7 @@
 body {
     overflow-x: hidden;
     font-family: 'avenir next';
-	
+	background-color: black;
 }
 
 .container-fluid {
@@ -18,7 +18,7 @@ body {
 }
 
 .mainHeaderText {
-	position: absolute;
+	position: fixed;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
