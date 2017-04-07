@@ -10,11 +10,16 @@ body {
 
 .mainHeader {
 	background: url('../images/alexandre-godreau-203580.jpg') no-repeat center center fixed;
+	/*background-color: white;*/
 	background-size: cover;
 	height: 100vh;
 	display: flex;
 	flex-direction: center;
 	align-content: center;
+}
+
+.mainHeader:nth-child(2) {
+	background: url(http://placehold.it/350x150) no-repeat center center fixed;
 }
 
 .mainHeaderText {
