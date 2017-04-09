@@ -27,14 +27,8 @@ body {
 	position: relative;
 }
 
+.mainHeaderText,
 .list {
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	position: relative;
-}
-
-.mainHeaderText {
 	position: fixed;
 	left: 50%;
 	top: 50%;
@@ -90,8 +84,19 @@ i {
 	font-size: 2em;
 }
 
+.portfolio {
+	z-index: -10;
+	padding: 25px 0px 25px 0px;
+}
 
+.list {
+	z-index: -5;
+}
 
+.project {
+	display: flex;
+	justify-content: space-between;
+}
 
 
 
