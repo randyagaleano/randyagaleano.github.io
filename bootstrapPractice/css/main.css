@@ -10,7 +10,6 @@ body {
 
 .mainHeader {
 	background: url('../images/alexandre-godreau-203580.jpg') no-repeat center center fixed;
-	/*background-color: white;*/
 	background-size: cover;
 	height: 100vh;
 	display: flex;
