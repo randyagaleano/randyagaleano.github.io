@@ -1,0 +1,156 @@
+body {
+    overflow-x: hidden;
+    font-family: 'avenir next';
+	/*background-color: black;*/
+}
+
+.container-fluid {
+	padding: 0px;
+}
+
+.mainHeader {
+	background: url('../images/alexandre-godreau-203580.jpg') no-repeat center center fixed;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	flex-direction: center;
+	align-content: center;
+}
+
+.mainHeaderText {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+	text-shadow: 0.15em 0.15em rgba(255, 255, 255, 0.25);
+	letter-spacing: 0.75em;
+}
+
+hr {
+	border-color: white;
+}
+
+.fa-chevron-down {
+	color: white;
+	text-shadow: none;
+	font-size: -webkit-xxx-large;
+}
+
+.mainHeaderText .title {
+	font-size: 4em;
+	font-family: 'avenir next';
+}
+
+.sub {
+	color: white;
+}
+
+
+.mainHeaderText p a:hover {
+	color: darkgrey;
+	transition: .25s;
+}
+
+hr {
+	border-top: 1px solid #8c8b8b;
+	text-align: center;
+}
+
+.headerNav {
+	font-size: 2em;
+	margin-left: 0;
+	margin-right: 0;
+	outline: none;
+	padding-left: 0px;
+}
+
+.navbar {
+	position: fixed;
+}
+
+i {
+	font-size: 2em;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.projectText h2 {
+	border-bottom: 1px solid white;
+}
+
+#about,
+#aboutText {
+	padding: 0px 25px;
+}
+
+.projectText {
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	color: white;
+	transition: 0.5s;
+	background-color: rgba(15,15,15,0.85);
+	padding: 15px;
+}
+
+.thumbnail:hover .projectText {
+	opacity: 1;
+}
+
+.thumbnail {
+	display: block;
+	position: relative;
+	margin: 10px;
+}
+
+.img-responsive {
+	max-width: 100%;
+}
+
+.project-links {
+	padding: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.project-links li {
+	width: 50%;
+}
+
+
+
+.wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.panel {
+	margin-bottom: 50px;
+	margin-top: 50px;
+	font-family: avenir;
+	letter-spacing: 0.25em;
+}
+
+
+@media (max-width: 786px) {
+	.project-links {
+		display: block;
+	}
+	.project-links li {
+		width: 100%;
+	}
+}
+
+
+
+
+

@@ -1,407 +1,92 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Rand Galeano - Web Developer</title>
-	<link rel="stylesheet" href="stylesheet.css" type="text/css">
-	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin" rel="stylesheet">
-	<script src="pie-chart.js"></script>
-	<script type="text/javascript" src="jquery-3.1.0.min.js"></script>
-	<script type="test/javascript" src="jquery.waypoints.min.js"></script>
-	<script type="text/javascript" src="waypoint.js"></script>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> R | G  </title>
 
-	<div class="header">
-		<div class="title">
-			<p>Randy A. Galeano</p>
-			<hr>
-			<p>Web resume</p>
-		</div>
-	</div>  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/sidebar.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
 
-	<div class="profile">
-		<h2>Profile</h2>
-		<p>I'm a rising web developer</p>
-			<hr>
-		<div class="about">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+  </head>
+  <body>
 
-			<!-- 1 -->
-			<div class="about-me">
-				<h3>About me</h3>
-					<p><!-- I am a self taught, motivated web developer looking for an oppurtunity to continue to learn in an active environment. --> 
-					Currently enrolled in WDI 9 at General Assembly.
-					I have a good knowledge of front end techniques and seek further knowledge from a like minded team oriented group. I appreciate constructive criticism and advice.
-					</p>
-			</div>
+    <div id="wrapper">
 
-			<!-- end 1 -->
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="">
+                        MENU
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">I. Home</a>
+                </li>
+                <li>
+                    <a href="about.html">II. About</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">III. Portfolio</a>
+                </li>
+                <li>
+                    <a href="https://github.com/randyagaleano" target="_blank">IV. GitHub</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/randygaleano/" target="_blank">V. LinkedIn</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
 
-			<!-- 2 -->
+        <!-- Page Content -->
+        <div class="container-fluid">
+        
 
-			<!-- end 2 -->
+            <div class="row mainHeader">
+                
+                <nav class="navbar navbar-default navbar-fixed-top">
+                  <div class="container headerNav">
+                    <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">
+                        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </nav>
 
-			<!-- 3 -->
-			<div class="details">
-			<h3>Details</h3>
-				<ul>
-					<li id="title">Name:</li>
-						<li>Randy Galeano</li>
-			
-					<li id="title">Age:</li>
-						<li>23 years</li>
-					<li id="title">Location</li>
-						<li>Dacula, Georgia, USA</li>
-				</ul>
-			</div>
-			<!-- end 3 -->
+                <div class="container mainHeaderText">
+                    <p class="title">RANDY A. GALEANO</p>
+                    <hr>
+                    <p class="sub">Full Stack Web Developer</p>
+                    <!-- DOWN ARROW GLYPHICON NOT WORKING -->
+                    <p class="glyphicon glyphicon-chevron-down arrow"></p>
+                </div>
+                
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
 
-		</div>
-	</div>
+    </div>
 
 
-	<div class="experiences">
-		<h2>Experience</h2>
-		<p id="qoute">"Tell me and I forget. Teach me and I remember. Involve me and I learn."
-		<p>-Benjamin Franklin</p></p>
-			<hr>
-
-		<div class="education">
-
-			<h3>Education</h3>
-			<div class="education1">
-				<div id="left">
-					<p id="title">General Assembly</p>
-					<p>May 2012 - May 2016</p>
-				</div>
-					<!-- DIV THIS TO MAKE INTO COLUMNS -->
-				<div id="right">
-					<p id="subtitle">Web Development Immersive</p>
-					<p>This program was java-based. During my time in these courses, I realized I found more interest in web developement.</p>
-				</div>
-			</div>
-			<div class="education1">
-				<div id="left">
-					<p id="title">University of North Georgia</p>
-					<p>May 2012 - May 2016</p>
-				</div>
-					<!-- DIV THIS TO MAKE INTO COLUMNS -->
-				<div id="right">
-					<p id="subtitle">Associates - Computer Science</p>
-					<p>This program was java-based. During my time in these courses, I realized I found more interest in web developement rather than the direction .</p>
-				</div>
-			</div>
-					<!-- END HERE -->
-			<div class="education1">
-				<div id="left">
-					<p id="title">Winder-Barrow High School</p>
-					<p>August 2008 - May 2012</p>
-				</div>
-					<!-- DIV HERE TOO -->
-				<div id="right">
-					<p id="subtitle">General studies</p>
-					<p>During my time in highschool, I found interest in science, mathematics, and art. I always had in interest in the growing technological field but never knew which direction it would take me.</p>
-				</div>
-			</div>
-		</div>
-		<div class="education">
-
-			<h3>Recent Work history</h3>
-			<div class="education1">
-				<div id="left">
-					<p id="title">Kirkland's</p>
-					<p>August 2014 - January 2017</p>
-				</div>
-					<!-- DIV THIS TO MAKE INTO COLUMNS -->
-				<div id="right">
-					<p id="subtitle">Assistant Manager</p>
-					<p>After being with the company for 5 months, I was promoted to assistant manager. This job required maintaining the flow of business. Keeping the shop visually appealing in order to reach designated sales quota was an important part of the position. I left this job in order to obtain a position with another company in order to free up my time during the week to focus on my future.</p>
-				</div>
-			</div>
-		</div>
-					<!-- AND END HERE AGAIN -->
-	</div>
-
-	<div class="abilities">
-		<h2>Abilities</h2>
-		<p id="qoute">"All men by nature desire knowledge."
-		<p>-Aristotle</p></p>
-			<hr>
-<!-- LIST of ABILITIES -->
-	<div class="graphs">
-		<ul class="left-list">
-			<!-- Ability 1 -->
-			<li>
-				<div class="stats">
-					<div class="catagory">
-						<p>Mac OS</p>
-					</div>
-					<!-- TITLE AND CHARTSPLIT HERE -->
-					<div class="chart" data-percent="87"></div>
-						<script src="/path/to/easy-pie-chart.js">
-						</script>
-						<script>
-    					var element = document.querySelector('.chart');
-    					new EasyPieChart(element, {
-        				// your options goes here
-    					});
-						</script>
-				</div>
-			</li>
-			
-			<!-- Ability 2 -->
-
-			<li>
-				<div class="stats">
-					<div class="catagory">
-						<p>Sublime Text 3</p>
-					</div>
-					<!-- TITLE AND CHART SPLIT HERE -->
-					<div class="chart2" data-percent="89"></div>
-						<script src="/path/to/easy-pie-chart.js">
-						</script>
-						<script>
-    					var element = document.querySelector('.chart2');
-    					new EasyPieChart(element, {
-        				// your options goes here
-    					});
-						</script>
-				</div>
-			</li>
-
-			<!-- Ability 3 -->
-
-			<li>
-				<div class="stats">
-					<div class="catagory">
-					<p>CSS</p>
-					</div>
-					<!-- TITLE AND CHART HERE -->
-					<div class="chart3" data-percent="87"></div>
-						<script src="/path/to/easy-pie-chart.js">
-						</script>
-						<script>
-    					var element = document.querySelector('.chart3');
-    					new EasyPieChart(element, {
-        				// your options goes here
-    					});
-						</script>
-				</div>
-			</li>
-
-			<!-- Ability 4 -->
-		
-			<li>
-				<div class="stats">
-					<div class="catagory">
-						<p>HTML</p>
-					</div>
-					<!-- TITLE AND CHART SPLIT HERE -->
-					<div class="chart4" data-percent="82"></div>
-						<script src="/path/to/easy-pie-chart.js">
-						</script>
-						<script>
-    					var element = document.querySelector('.chart4');
-    					new EasyPieChart(element, {
-        				// your options goes here
-    					});
-						</script>
-				</div>
-			</li>
-		</ul>
-
-		<ul class="right-list">
-			<!-- Ability 1 -->
-			<li>
-				<div class="stats">
-					<div class="catagory">
-						<p>Node.js</p>
-					</div>
-					<!-- TITLE AND CHARTSPLIT HERE -->
-					<div class="chart5" data-percent="67"></div>
-						<script src="/path/to/easy-pie-chart.js">
-						</script>
-						<script>
-    					var element = document.querySelector('.chart5');
-    					new EasyPieChart(element, {
-        				// your options goes here
-    					});
-						</script>
-				</div>
-			</li>
-			
-			<!-- Ability 2 -->
-
-			<li>
-				<div class="stats">
-					<div class="catagory">
-						<p>Express</p>
-					</div>
-					<!-- TITLE AND CHART SPLIT HERE -->
-					<div class="chart6" data-percent="79"></div>
-						<script src="/path/to/easy-pie-chart.js">
-						</script>
-						<script>
-    					var element = document.querySelector('.chart6');
-    					new EasyPieChart(element, {
-        				// your options goes here
-    					});
-						</script>
-				</div>
-			</li>
-
-			<!-- Ability 3 -->
-
-			<li>
-				<div class="stats">
-					<div class="catagory">
-					<p>mongoDB</p>
-					</div>
-					<!-- TITLE AND CHART HERE -->
-					<div class="chart7" data-percent="80"></div>
-						<script src="/path/to/easy-pie-chart.js">
-						</script>
-						<script>
-    					var element = document.querySelector('.chart7');
-    					new EasyPieChart(element, {
-        				// your options goes here
-    					});
-						</script>
-				</div>
-			</li>
-
-			<!-- Ability 4 -->
-		
-			<li>
-				<div class="stats">
-					<div class="catagory">
-						<p>Angular</p>
-					</div>
-					<!-- TITLE AND CHART SPLIT HERE -->
-					<div class="chart8" data-percent="75"></div>
-						<script src="/path/to/easy-pie-chart.js">
-						</script>
-						<script>
-    					var element = document.querySelector('.chart8');
-    					new EasyPieChart(element, {
-        				// your options goes here
-    					});
-						</script>
-				</div>
-			</li>
-		</ul>
-	</div>
-		<br>
-		<br>
-		<div>
-			<p>*Learning every day.</p>
-		</div>
+    
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- sidebar -->
+    <script src="js/main.js"></script>
 
 
 
 
-<!-- SKILLS
-		HTML 
-		CSS
-	LANGUAGES
-		Spanish (family language)
-		English (daily use)
-		French (un petit peu)
-	Tools 
-		Mac
-		Windows
-		Sublime 3
-		MS Office
-		Adobe Photoshop
-		Firefox
-		Chrome
-	-->
-
-
-
-	</div>
-
-	<div class="projects">
-		<h2>Projects</h2>
-		<p id="qoute">"When you want something, all the universe conspires in helping you to achieve it."
-		<p>-Paulo Coelho</p></p>
-			<hr>
-		<br>
-		<br>
-
-		<div class="projects-links">
-			<div class="project1">
-				<a href="restuarant/index.html" target="_blank">
-				<img src="Restaurant-thumbnail.png" alt="" width="400">
-				</a>
-			</div>
-			<div class="project1">
-				<a href="city-guide/index.html" target="_blank">
-				<img src="BCG-thumbnail.png" alt="" width="400">
-				</a>
-			</div>
-			<div class="project1">
-				<a href="QRS/index.html" target="_blank">
-				<img src="QRS-thumbnail.png" alt="" width="400">
-				</a>
-			</div>
-			<div class="project1">
-				<a href="http://jeopardy-rg.bitballoon.com/" target="_blank">
-				<img src="jeopardy-thumbnail.png" alt="" width="400">
-				</a>
-			</div>
-			<div class="project1">
-				<a href="https://radiant-sierra-29514.herokuapp.com/" target="_blank">
-				<img src="streetart-thumbnail.png" alt="" width="400">
-				</a>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="contact">
-		<h2>Contact</h2>
-		<p id="qoute">"I'm sick of following my dreams. I'm just going to ask them where they're going and hook up with them later."
-		<p>-Mitch Hedberg</p></p>
-		<hr>
-		<div class="contact-info">
-		<span><a href="bootstrapPractice/index.html" target="_blank"><img src="images/email.png" alt="" width="50px"></a></span>
-			<span><a href="https://github.com/randyagaleano" target="_blank"><img src="images/github-logo.png" alt="" width="50px"></a></span>
-			<span><a href="https://www.linkedin.com/in/randygaleano/" target="_blank"><img src="images/linkedin-logo.png" alt="" width="50px"></a></span>
-		<p>(678) 209-4349</p>
-		<hr>
-	
-
-
-	</div>
-
-
-</body>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
