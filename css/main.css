@@ -125,7 +125,9 @@ i {
 	width: 50%;
 }
 
-
+.interests_list {
+	list-style: none;
+}
 
 .wrapper {
 	max-width: 800px;
