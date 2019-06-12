@@ -141,6 +141,14 @@ i {
 	letter-spacing: 0.125em;
 }
 
+.linethrough {
+	text-decoration: line-through;
+	color: grey;
+}
+
+.hidden {
+	display: none;
+}
 
 @media (max-width: 786px) {
 	.project-links {

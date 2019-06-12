@@ -28,3 +28,28 @@ $(function() {
 		event.preventDefault();
 	});
 });
+
+function1 = () => {
+	document.getElementById('all').className += 'linethrough';
+	document.getElementById('some').setAttribute("style", "display: initial;")	
+}
+function2 = () => {
+	document.getElementById('some').classList.add('linethrough');
+	document.getElementById('one').setAttribute("style", "display: initial;")
+}
+function3 = () => {
+	document.getElementById('one').classList.add('linethrough');
+	document.getElementById('your').classList.add('linethrough');
+	document.getElementById('ok').setAttribute("style", "display: initial;")
+}
+
+var functions = [function1, function2, function3];
+var i = 0;
+
+callsFunctions = () => {
+	functions[i++]();
+	if (i < functions.length) 
+	setTimeout(callsFunctions, 2000);	
+} 
+
+setTimeout(callsFunctions, 1000);
