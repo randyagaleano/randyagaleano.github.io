@@ -23,12 +23,26 @@ body {
 	transform: translate(-50%, -50%);
 	text-align: center;
 	color: white;
-	text-shadow: 0.15em 0.15em rgba(255, 255, 255, 0.25);
 	letter-spacing: 0.75em;
+}
+
+.header_content,
+.subheader_content {
+	text-align: left;
+}
+
+.subheader_content {
+	text-shadow: 0;
+	color: black;
+	letter-spacing: 0.25em;
 }
 
 hr {
 	border-color: white;
+}
+
+.chevron_down:hover {
+	cursor: pointer;
 }
 
 .fa-chevron-down {
@@ -126,11 +140,12 @@ i {
 }
 
 .interests_list {
+	margin-top: 15px;
 	list-style: none;
 }
 
 .wrapper {
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
@@ -148,6 +163,7 @@ i {
 
 .hidden {
 	display: none;
+	transition: 0.5s;
 }
 
 @media (max-width: 786px) {
