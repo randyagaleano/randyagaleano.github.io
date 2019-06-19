@@ -52,7 +52,7 @@ callsFunctions = () => {
 	setTimeout(callsFunctions, 3000);	
 } 
 
-setTimeout(callsFunctions, 2500);
+setTimeout(callsFunctions, 1500);
 
 
 var mainText = document.querySelector(".main_text");
@@ -68,6 +68,7 @@ displayAboutText = () => {
 displayMainText = () => {
 	aboutSection.classList.add('hidden')
 	mainText.classList.remove('hidden')
+	callsFunctions()
 }
 
 showAbout.addEventListener('click', displayAboutText)
