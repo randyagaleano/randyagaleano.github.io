@@ -4,7 +4,7 @@ body {
 }
 
 .mainHeader {
-	background: url('../images/reynisdrangar_landscape.jpg') no-repeat center center fixed;
+	background: url('../images/light_leak.jpg') no-repeat center center fixed;
 	background-size: cover;
 	height: 100vh;
 	display: flex;
